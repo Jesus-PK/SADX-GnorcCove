@@ -147,13 +147,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="deathzones.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="hud.h" />
+    <ClInclude Include="level.h" />
+    <ClInclude Include="levelranks.h" />
+    <ClInclude Include="leveltask.h" />
+    <ClInclude Include="mod.h" />
+    <ClInclude Include="objects.h" />
+    <ClInclude Include="paths.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="config\IniFile.cpp" />
     <ClCompile Include="config\TextConv.cpp" />
+    <ClCompile Include="deathzones.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="hud.cpp" />
+    <ClCompile Include="level.cpp" />
+    <ClCompile Include="levelranks.cpp" />
+    <ClCompile Include="leveltask.cpp" />
+    <ClCompile Include="mod.cpp" />
+    <ClCompile Include="objects.cpp" />
+    <ClCompile Include="paths.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -164,6 +183,7 @@
     <ClCompile Include="programming\LandTableInfo.cpp" />
     <ClCompile Include="programming\ModelInfo.cpp" />
     <ClCompile Include="programming\Trampoline.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
