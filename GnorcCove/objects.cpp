@@ -141,6 +141,6 @@ void INIT_Objects()
 
 	LOAD_Objects();
 
-	for (Uint32 i = 507004000; i < 507004005; i++)
+	for (Uint32 i = 503003000; i < 503003003; i++)
 		HelperFunctionsGlobal.MipmapBlacklistGBIX(i);
 }
