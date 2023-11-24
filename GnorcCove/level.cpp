@@ -115,20 +115,20 @@ void FILES_GnorcCove()
 	ReplaceBIN("CAM0302B", "CAM_GnorcCove-B");
 
 
-	// PL & SL Replacement:
+	// Lantern PL & SL Replacement:
 
-	ReplaceBIN("PL_30B", "PL_GnorcCove");
-	ReplaceBIN("PL_31B", "PL_GnorcCove");
-	ReplaceBIN("PL_32B", "PL_GnorcCove");
+	ReplaceBIN("PL_30B", "LANTERN_GnorcCove-PL");
+	ReplaceBIN("PL_31B", "LANTERN_GnorcCove-PL");
+	ReplaceBIN("PL_32B", "LANTERN_GnorcCove-PL");
 
-	ReplaceBIN("SL_30B", "SL_GnorcCove");
-	ReplaceBIN("SL_31B", "SL_GnorcCove");
-	ReplaceBIN("SL_32B", "SL_GnorcCove");
+	ReplaceBIN("SL_30B", "LANTERN_GnorcCove-SL");
+	ReplaceBIN("SL_31B", "LANTERN_GnorcCove-SL");
+	ReplaceBIN("SL_32B", "LANTERN_GnorcCove-SL");
 
 
-	// OST Replacement:
+	// BGM Replacement:
 
-	HelperFunctionsGlobal.ReplaceFile("system\\sounddata\\bgm\\wma\\twnklpk1.wma", "system\\OST_GnorcCove.adx");
+	ReplaceBGM("twnklpk1", "BGM_GnorcCove");
 }
 
 

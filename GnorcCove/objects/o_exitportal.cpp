@@ -75,7 +75,7 @@ void EXEC_ExitPortal(task* tp)
         {           
             if (CheckCollisionP(&POS_ExitTrigger, 12.0f))
             {
-                if (CurrentCharacter == Characters_Big)
+                if (CurrentCharacter == Characters_Big) // For Big I setup a very small timer so he can have enough frames to fully land onto the portal (so his win anim doesn't play with him floating).
                 {
                     if (++twp->wtimer > 3)
                     {
