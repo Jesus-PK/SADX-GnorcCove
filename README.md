@@ -1,6 +1,6 @@
 # SADX - Gnorc Cove
 
-![GnorcCove_Thumbnail](https://images.gamebanana.com/img/ss/mods/641e26d6bd32a.jpg)
+![GnorcCove_Thumbnail](https://images.gamebanana.com/img/ss/mods/65669b87dc579.jpg)
 
 ## Overview:
 
