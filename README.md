@@ -1,10 +1,10 @@
-# SADX - Gnorc Cove
+# SADX - Gnorc Cove (v1.2.0)
 
 ![GnorcCove_Thumbnail](https://images.gamebanana.com/img/ss/mods/65669b87dc579.jpg)
 
 ## Overview:
 
-This mod brings a fully fledged level port of Gnorc Cove from Spyro 1 into SADX, replacing Twinkle Park.
+Part of the [**Spyro Triple Pack**](https://github.com/Jesus-PK/SADX-SpyroTriplePack), this mod brings a fully fledged level port of Gnorc Cove from Spyro 1 into SADX, replacing Twinkle Park.
 
 You can find more details about this mod in [**GameBanana**](https://gamebanana.com/mods/433998).
 
