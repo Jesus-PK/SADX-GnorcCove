@@ -11,7 +11,6 @@ bool HasKey = 0;
 bool HD_GUI = false;
 bool DC_Conversion = false;
 bool HUD_Plus = false;
-bool Lantern_Engine = false;
 
 bool DC_HudTweaks = false;
 
@@ -37,7 +36,6 @@ void CheckActiveMods()
 	CheckDCConfig();
 	
 	HUD_Plus = GetModuleHandle(L"sadx-hud-plus") != nullptr;
-	Lantern_Engine = GetModuleHandle(L"sadx-dc-lighting") != nullptr;
 }
 
 

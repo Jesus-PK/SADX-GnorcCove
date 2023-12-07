@@ -84,9 +84,9 @@ void INIT_LevelTask()
 	RoundMasterList[LevelIDs_TwinklePark] = RD_GnorcCove; // Level Task.
 	ScrollMasterList[LevelIDs_TwinklePark] = BG_GnorcCove; // Skybox Task.
 
-	RunLevelDestructor_t.Hook(RunLevelDestructor_r); // Init Level Destructor Trampoline.
+	RunLevelDestructor_t.Hook(RunLevelDestructor_r); // Init Level Destructor Funchook.
 	
-	ADC_SetDrumCan_t.Hook(ADC_SetDrumCan_r); //	Delete hardcoded metal drum in Amy's layout.
+	ADC_SetDrumCan_t.Hook(ADC_SetDrumCan_r); // Delete hardcoded metal drum in Amy's layout.
 	AmyMain_LoadZERO_t.Hook(AmyMain_LoadZERO_r); // Prevent ZERO from spawning as Amy.
 
 	WriteData((int*)0x4349BF, 0); // Remove "No Free-Cam" boxes in Twinkle Park Act 2.
