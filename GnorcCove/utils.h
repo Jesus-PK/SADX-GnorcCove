@@ -24,6 +24,8 @@ extern bool DC_HudTweaks;
 
 void CheckActiveMods();
 
+void CheckBASS();
+
 
 //	Expand Draw Queue Memory Pool (Applies to the entire game):
 
