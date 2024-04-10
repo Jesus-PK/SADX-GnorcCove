@@ -10,9 +10,9 @@ AnimationFile* ANIM_Spyro = nullptr;
 AnimationFile* ANIM_Lateef = nullptr;
 AnimationFile* ANIM_Tomas = nullptr;
 
-CCL_INFO COLLI_Spyro = { 0, CollisionShape_Capsule, 0x77, 0, 0, { 0.0f, 6.0f, 0.0f }, 6.0f, 3.0f, 0.0f, 0.0f, 0, 0, 0 };
-CCL_INFO COLLI_Lateef = { 0, CollisionShape_Capsule, 0x77, 0, 0, { 0.0f, 15.0f, 0.0f }, 7.5f, 12.5f, 0.0f, 0.0f, 0, 0, 0 };
-CCL_INFO COLLI_Tomas = { 0, CollisionShape_Capsule, 0x77, 0, 0, { 0.0f, 17.5f, 0.0f }, 7.5f, 15.0f, 0.0f, 0.0f, 0, 0, 0 };
+CCL_INFO COL_Spyro = { 0, CollisionShape_Capsule, 0x77, 0, 0, { 0.0f, 6.0f, 0.0f }, 6.0f, 3.0f, 0.0f, 0.0f, 0, 0, 0 };
+CCL_INFO COL_Lateef = { 0, CollisionShape_Capsule, 0x77, 0, 0, { 0.0f, 15.0f, 0.0f }, 7.5f, 12.5f, 0.0f, 0.0f, 0, 0, 0 };
+CCL_INFO COL_Tomas = { 0, CollisionShape_Capsule, 0x77, 0, 0, { 0.0f, 17.5f, 0.0f }, 7.5f, 15.0f, 0.0f, 0.0f, 0, 0, 0 };
 
 
 //  Values:
@@ -65,7 +65,7 @@ void EXEC_Spyro(task* tp)
         case 0:
 
             tp->disp = DISPLAY_Spyro;
-            CCL_Init(tp, &COLLI_Spyro, 1, 4u);
+            CCL_Init(tp, &COL_Spyro, 1, 4u);
 
             twp->mode++;
 
@@ -148,7 +148,7 @@ void EXEC_Lateef(task* tp)
             case 0:
 
                 tp->disp = DISPLAY_Lateef;
-                CCL_Init(tp, &COLLI_Lateef, 1, 4u);
+                CCL_Init(tp, &COL_Lateef, 1, 4u);
 
                 POS_LateefSmoke.x = twp->pos.x;
                 POS_LateefSmoke.y = twp->pos.y + 15.0f;
@@ -188,7 +188,7 @@ void EXEC_Tomas(task* tp)
             case 0:
 
                 tp->disp = DISPLAY_Tomas;
-                CCL_Init(tp, &COLLI_Tomas, 1, 4u);
+                CCL_Init(tp, &COL_Tomas, 1, 4u);
 
                 POS_TomasSmoke.x = twp->pos.x;
                 POS_TomasSmoke.y = twp->pos.y + 20.0f;

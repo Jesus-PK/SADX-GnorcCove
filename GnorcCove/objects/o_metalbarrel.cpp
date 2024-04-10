@@ -4,7 +4,7 @@
 
 ModelInfo* MDL_MetalBarrel = nullptr;
 
-CCL_INFO COLLI_MetalBarrel = { 0, CollisionShape_Cylinder, 0x77, 0, 0, { 0.0f, 9.0f, 0.0f }, 7.65f, 8.0f, 0.0f, 0.0f, 0, 0, 0 };
+CCL_INFO COL_MetalBarrel = { 0, CollisionShape_Cylinder, 0x77, 0, 0, { 0.0f, 9.0f, 0.0f }, 7.65f, 8.0f, 0.0f, 0.0f, 0, 0, 0 };
 
 
 //  Metal Barrel - Main:
@@ -38,7 +38,7 @@ void EXEC_MetalBarrel(task* tp)
     if (!twp->mode)
     {
         tp->disp = DISPLAY_MetalBarrel;
-        CCL_Init(tp, &COLLI_MetalBarrel, 1, 4u);
+        CCL_Init(tp, &COL_MetalBarrel, 1, 4u);
 
         twp->mode++;
     }

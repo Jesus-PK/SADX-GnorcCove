@@ -7,7 +7,7 @@
 ModelInfo* MDL_Froggy = nullptr;
 AnimationFile* ANIM_Froggy = nullptr;
 
-CCL_INFO COLLI_Froggy = { 0, CollisionShape_Sphere, 0x77, 0, 0, { 0.0f, 12.0f, 0.0f }, 2.0f, 0.0f, 0.0f, 0.0f, 0, 0, 0 };
+CCL_INFO COL_Froggy = { 0, CollisionShape_Sphere, 0x77, 0, 0, { 0.0f, 12.0f, 0.0f }, 2.0f, 0.0f, 0.0f, 0.0f, 0, 0, 0 };
 
 
 //  Froggy - Main:
@@ -45,7 +45,7 @@ void EXEC_Froggy(task* tp)
         case 0:
 
             tp->disp = DISPLAY_Froggy;
-            CCL_Init(tp, &COLLI_Froggy, 1, 4u);
+            CCL_Init(tp, &COL_Froggy, 1, 4u);
 
             twp->mode++;
 
