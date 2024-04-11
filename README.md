@@ -1,4 +1,4 @@
-# SADX - Gnorc Cove (v1.2.0)
+# SADX - Gnorc Cove (v1.3.0)
 
 ![GnorcCove_Thumbnail](https://images.gamebanana.com/img/ss/mods/65669b87dc579.jpg)
 
